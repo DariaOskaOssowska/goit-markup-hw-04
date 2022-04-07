@@ -151,6 +151,12 @@ img {
   margin-left: 50px;
 }
 
+.header-address-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
 .navigation-list-link {
   color: var(--main-colorFont);
 }
@@ -184,7 +190,7 @@ img {
 }
 
 .hero-up-side {
-  background-image: url(../images/background/Img.jpg);
+  background-image: url(../images/background/bg_hero.jpg);
   /* background-color: var(--dark-bgc); */
   color: var(--third-colorFont);
 }
