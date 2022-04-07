@@ -184,7 +184,8 @@ img {
 }
 
 .hero-up-side {
-  background-color: var(--dark-bgc);
+  background-image: url(../images/background/Img.jpg);
+  /* background-color: var(--dark-bgc); */
   color: var(--third-colorFont);
 }
 
