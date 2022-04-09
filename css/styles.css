@@ -190,8 +190,12 @@ img {
 }
 
 .hero-up-side {
-  background-image: url(../images/background/bg_hero.jpg);
-  /* background-color: var(--dark-bgc); */
+  background-color: var(--dark-bgc);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background/bg_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--third-colorFont);
 }
 
