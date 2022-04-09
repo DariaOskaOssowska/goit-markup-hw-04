@@ -241,6 +241,16 @@ img {
   align-items: center;
 }
 
+.hero-list-icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--grey-bgc);
+}
+
 .hero-third-header {
   font-weight: 700;
   font-size: 14px;
@@ -318,11 +328,6 @@ img {
   background-color: var(--grey-bgc);
 }
 
-/* .team-content-wraper {
-  padding-top: 30px;
-  margin-bottom: 10px;
-} */
-
 .team-third-header-name {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -332,6 +337,11 @@ img {
 .team-list-job {
   margin-bottom: 30px;
   color: var(--second-colorFont);
+
+  /* .team-content-wraper {
+  padding-top: 30px;
+  margin-bottom: 10px;
+} */
 }
 /* =======  END OUR TEAM ======== */
 /* ========== END MAIN ========== */
