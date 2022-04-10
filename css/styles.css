@@ -2,6 +2,7 @@
   --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
   --main-color: #2196f3;
+  --icon-color: #AFB1B8;
   --main-colorFont: #212121;
   --second-colorFont: #757575;
   --third-colorFont: #ffffff;
@@ -335,14 +336,42 @@ img {
 }
 
 .team-list-job {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: var(--second-colorFont);
-
-  /* .team-content-wraper {
-  padding-top: 30px;
-  margin-bottom: 10px;
-} */
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  fill: var(--icon-color);
+  background-color: var(--light-bgc);
+  border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--main-color);
+  fill: var(--light-bgc);
+}
+
 /* =======  END OUR TEAM ======== */
 /* ========== END MAIN ========== */
 
