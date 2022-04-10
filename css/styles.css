@@ -407,11 +407,10 @@ img {
 }
 
 .customers-list-link:hover,
-.customers-list-link:focuse {
+.customers-list-link:focus {
   border-color: var(--main-color);
   fill: var(--main-color);
 }
-
 /* ===== END  OUR CUSTOMERS ===== */
 /* ========== END MAIN ========== */
 
