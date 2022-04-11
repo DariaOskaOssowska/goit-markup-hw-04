@@ -81,6 +81,14 @@ img {
   letter-spacing: 0.02em;
 }
 
+.third-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .footer {
   padding: 60px 0;
   font-size: 14px;
@@ -194,7 +202,7 @@ img {
   background-color: var(--dark-bgc);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background/bg_hero.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
   color: var(--third-colorFont);
@@ -250,14 +258,6 @@ img {
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: var(--grey-bgc);
-}
-
-.hero-third-header {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .hero-description {
@@ -417,12 +417,16 @@ img {
 /* ==========  FOOTER =========== */
 .footer .container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  /* flex-direction: column; */
+  align-items: baseline
 }
 
-.footer .navigation-logo {
-  margin-bottom: 20px;
+.footer-left-side {
+  margin-right: 70px;
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .footer-list-item:nth-child(2) {
@@ -445,6 +449,23 @@ img {
 .footer-address-phone:focus {
   color: var(--main-color);
 }
+
+.footer-third-header {
+  margin-bottom: 20px;
+  color: var(--third-colorFont);
+}
+
+.footer .social-list-link {
+  fill: var(--light-bgc);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--main-color);
+  fill: var(--light-bgc);
+}
+
 /* ========  END FOOTER ========= */
 
 /* =========  PORTFOLIO ========= */
